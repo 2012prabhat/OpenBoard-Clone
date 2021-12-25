@@ -3,8 +3,11 @@ It also has redo and undo functionalities and also has dark mode.
 
       TECHNOLOGIES USED IN THIS PROJECT ARE:-
 (1) JavaScript
+
 (2) HTML
+
 (3) HTML Canvas for drawing
+
 (4) CSS
 
 Demo Link:-
