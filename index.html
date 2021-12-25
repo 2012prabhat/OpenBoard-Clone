@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="options"><i class="fas fa-times"></i></div>
+    <div class="tools">
+        <img  class = "pencil-img"   src="images/pencil.jpg" alt="">
+        <img  class = "eraser-img"   src="images/eraser.png" alt="">   
+        <img  class = "download-img" src="images/download.png" alt="">   
+        <img  class = "upload-img"   src="images/upload.png" alt="">   
+        <img  class = "sticky-img" src="images/StickyNote.svg" alt="">   
+        <img  class = "redo-img" src="images/redo.jpg" alt="">   
+        <img  class = "undo-img" src="images/undo.jpg" alt="">   
+        <div class="dark-mode"><i class="fas fa-toggle-off"></i></div>
+    </div>
+    <div class="pencil">
+        <div class="pencil-width">
+            <input class = "pencil-size" type="range" min="2" max="10" value="3">
+        </div>
+        <div class="pencil-color-con">
+            <div class="#474787 color-1 pencil-color"></div>
+            <div class="#c0392b color-2 pencil-color"></div>
+            <div class="#27ae60 color-3 pencil-color"></div>
+             <div class="#f39c12 color-4 pencil-color"></div>
+            <div class="#3d3d3d color-5 pencil-color"></div>
+            <div class="#0984e3 color-6 pencil-color"></div>
+        </div>
+    </div>
+    <div class="eraser"><input class ="eraser-size" type="range" min="8" max="20" value="3"></div>
+    <!-- <div class="sticky">
+        <div class="sticky-head">
+            <div class="sticky-min"></div>
+            <div class="sticky-close"></div>
+        </div>
+        <div class="sticky-note">
+            <textarea></textarea>
+        </div>
+    </div> -->
+    <canvas></canvas>
+    <script src="tool.js"></script>
+    <script src="canvas.js"></script>
+</body>
+</html>
